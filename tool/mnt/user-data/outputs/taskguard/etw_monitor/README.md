@@ -1,7 +1,7 @@
 # EtwMonitor
 
-Real-time process start/stop visibility for TaskGuard, via ETW (Event
-Tracing for Windows) instead of polling. Optional - TaskGuard's Python
+Real-time process start/stop visibility for Terminalmana, via ETW (Event
+Tracing for Windows) instead of polling. Optional - Terminalmana's Python
 side works completely fine without this.
 
 ## Status: unverified, untested, needs a real build
