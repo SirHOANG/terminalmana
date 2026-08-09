@@ -1,9 +1,13 @@
-# TaskGuard
+# Terminalmana
 
 A terminal-based process monitor and malware triage tool for Windows —
 built as an alternative to Task Manager for cases where malware
 specifically watches for `taskmgr.exe` (by process name or window
 title) and hides or reacts the moment it opens.
+
+## required
+YOU MUST INSTALL WIRESHARK + NCAP BEFORE USING THIS TOOL FOR Network Monitoring Tool
++ THIS IS FOR WINDOWS ONLY
 
 ## Setup
 
