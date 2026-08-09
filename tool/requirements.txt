@@ -1,0 +1,3 @@
+# TaskGuard dependencies. Tested against Python 3.10+.
+psutil>=5.9.0
+rich>=13.7.0
