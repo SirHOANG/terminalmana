@@ -39,9 +39,9 @@ happen on the system. Open Notepad in another window and confirm a
 `process_start` event for `notepad.exe` shows up - that's the sanity
 check that it's actually working before trusting it for anything else.
 
-## Wiring it into TaskGuard
+## Wiring it into Terminalmana
 
-From the main `taskguard` tool, `etw start` will look for the built
+From the main `Terminalmana` tool, `etw start` will look for the built
 `EtwMonitor.exe` next to `etw_monitor/` and, if found, launch it and
 stream its events into the audit log automatically. `etw stop` ends it.
 If it's not built yet, `etw start` says so rather than failing silently.
